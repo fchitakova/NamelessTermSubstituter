@@ -30,7 +30,7 @@ public class NamelessTermSubstituter {
 	    N = reader.readLine();
 	    
 	    
-	    System.out.println(substituteAndClear(M, variable, N));
+	    System.out.println(substituteAndClear(M.trim(), variable.trim(), N.trim()));
 	}
     }
     
